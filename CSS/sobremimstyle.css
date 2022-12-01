@@ -1,0 +1,126 @@
+html,body{
+
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(201, 201, 201));
+    overflow: hidden;
+    font-family: monospace;
+    
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+ 
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-image: linear-gradient(to bottom, rgb(99, 37, 215), rgba(28, 73, 188, 0.764));
+    padding: 18px 8%;
+    text-align: center;
+    padding-bottom: 45px;
+    border-bottom: 7px solid rgb(255, 222, 34);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.418)
+}
+
+.menu i{
+    font-size: 190%;
+    float: center;
+    margin-right: 20px;
+    transition: 0.95s;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.menu i:hover{
+    transform: scale(1.10,1.10);
+}
+
+.curriculo{
+   width: 30%;
+   margin: 160px 0px 0px 870px;
+   border-style: solid;
+   border-width: 2px;
+   transition: 0.75s;
+   padding: 7px 7px 7px 7px;
+   border-radius: 10px;
+}
+
+.curriculo:hover{
+    transform: scale(1.15,1.15);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.418)
+}
+
+.maissobre{
+    text-align: left;
+    float: left;
+    position: absolute;
+    padding-left: 10px;
+    margin: -610px 0px 0px 50px;
+    padding-top: -100px;
+    font-size: 14px;
+}
+
+.maissobre h1{
+    font-family: ephesis;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.html{
+    width: 12%;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 210px;
+}
+
+.css{
+    width: 12%;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 430px;
+}
+
+.copyright{
+    position: absolute;
+    font-family: monospace;
+    opacity: 0.37;
+    margin: 58px 0px 0px 46%;
+    z-index: 1;
+    
+}
+
+.menu a {    
+    text-decoration: none;
+    margin-right: -3px;
+}
+
+.home{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -717px;
+    transition: 0.95s;
+    font-size: 20px;
+    font-family: monospace;
+    
+    
+}
+.home a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.home:hover{
+    transform: scale(1.10,1.10);
+}

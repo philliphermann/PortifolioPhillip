@@ -1,0 +1,520 @@
+html,body{
+
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(201, 201, 201));
+    overflow: hidden;
+    
+    
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+ 
+}
+
+
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-image: url(/IMG/fundo.png);
+    padding-top: 175px;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    
+ 
+}
+
+
+
+.menu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-image: linear-gradient(to bottom, rgb(99, 37, 215), rgba(28, 73, 188, 0.764));
+    padding: 18px 8%;
+    text-align: center;
+    padding-bottom: 45px;
+    border-bottom: 7px solid rgb(255, 222, 34);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.418)
+    
+}
+
+.menu i{
+    font-size: 190%;
+    float: center;
+    margin-right: 20px;
+    transition: 0.95s;
+    
+}
+
+.menu i:hover{
+    transform: scale(1.10,1.10);
+}
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px ;
+    
+}
+.principal p { 
+    font-family: monospace;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.613);
+    
+}
+
+.principal h1{
+    font-family: ephesis;
+    font-size: 40px;
+}
+
+
+
+.cabecalho article p{
+    font-size: 50%;
+}
+
+
+
+
+
+.html{
+    width: 12%;
+    float: left;
+    filter: drop-shadow(0px 7px 4px #0000007e);
+    margin-left: 470px;
+    margin-top: 700px;
+    padding-bottom: 100px;
+    
+}
+.css{
+    width: 12%;
+    float: right;
+    filter: drop-shadow(0px 7px 4px #0000007e);
+    margin-left: 660px;
+    margin-top: 700px;
+    padding-bottom: 100px;
+    
+}
+
+
+
+
+
+.pc1{
+    filter: drop-shadow(6px 13px 7px #000000);
+    position: absolute;
+    width: 20%;
+    margin-top: 2600px;
+    margin-left: 900px;
+}
+
+.pc1{ 
+    position: absolute;
+    animation: positionpc1 4s linear infinite;
+    animation-duration: 10s;
+}
+
+
+
+@keyframes positionpc1{
+    0%{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    35%{
+        top: 7px;
+        left: 7px;
+        bottom: 7px;
+        right: 7px;
+    }
+    50%{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    75%{
+        top: 7px;
+        left: 7px;
+        bottom: 7px;
+        right: 7px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.gpu{
+    filter: drop-shadow(6px 13px 7px #000000);
+    position: absolute;
+    width: 20%;
+    margin-top: 2650px;
+    margin-left: 200px;
+}
+
+.gpu{ 
+    position: absolute;
+    animation: positiongpu 4s linear infinite;
+    animation-duration: 10s;
+}
+
+
+
+@keyframes positiongpu{
+    0%{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    35%{
+        top: 7px;
+        left: 7px;
+        bottom: 7px;
+        right: 7px;
+    }
+    50%{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    75%{
+        top: 7px;
+        left: 7px;
+        bottom: 7px;
+        right: 7px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.cpu{
+    filter: drop-shadow(6px 13px 7px #000000);
+    position: absolute;
+    width: 15%;
+    margin-top: 2650px;
+    margin-left: 550px;
+}
+
+.html{ 
+    position: absolute;
+    animation: positionhtmlcss 3s linear infinite;
+    animation-duration: 5s;
+}
+
+
+
+@keyframes positionhtmlcss{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
+.css {
+    position: absolute;
+    animation: positionhtmlcss 3s linear infinite;
+    animation-duration: 5s;
+}
+
+
+
+@keyframes positionhtmlcss{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
+
+.menu p {
+    margin-top: -27px;
+    margin-left: 1000px;
+    margin-right: -100;
+    
+    
+}
+
+
+
+.Experiencia p{
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.178);
+    margin-top: -46px;
+    
+}
+
+
+.menu a{
+color: #000000;
+}
+
+.menu a {    
+    text-decoration: none;
+}
+.menu p{
+    font-family: monospace;
+    margin-top: -26px;
+    transition: 0.95s;
+    font-size: 17px;
+    margin-right: -160px;
+
+}
+
+.menu p:hover{
+    transform: scale(1.20,1.20);
+}
+
+
+
+.principal p {
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 	120px;
+}
+
+.principal h1{
+    padding: 5px 100px 5px 100px;
+}
+
+.principal img{
+    width: 15%;
+    margin: -230px 0px 0px 1035px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-left: 969px;
+}
+
+.home{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 19px;
+    transition: 0.95s;
+    font-size: 20px;
+    font-family: monospace;
+    
+    
+}
+.home a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.home:hover{
+    transform: scale(1.10,1.10);
+}
+
+.curriculo{
+    position: absolute;
+    font-family: monospace;
+    margin: 112px 0px 0px 1125px;
+    font-size: 14px;
+    transition: 0.95s;
+    
+    
+}
+.curriculo p{
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, rgb(255, 242, 0),rgb(255, 224, 72));
+    padding: 5px 37px 5px 20px;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.281);
+    color: #000000;   
+    
+}
+.curriculo:hover{
+    transform: scale(1.10,1.10);
+}
+
+.curriculo a{
+    text-decoration: none;
+}
+
+.curriculo img{
+    width: 20px;
+    margin-left: 95px;
+    margin-top: -23px;
+    opacity: 0.85;
+
+}
+
+
+
+.copyright{
+    position: absolute;
+    font-family: monospace;
+    opacity: 0.50;
+    margin: 786px 0px 0px 46%;
+    z-index: 1;
+    
+}
+.blocohtml{
+    width: 270px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: left;
+    margin: 25px 0px 0px 120px;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.281);
+    font-family: monospace;
+    border-radius: 10px;
+    transition: 0.40s;
+    
+}
+
+.blococss p{
+    padding: 2px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.blococss h1{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.blococss{
+    width: 270px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: left;
+    margin: 25px 0px 0px 170px;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.281);
+    font-family: monospace;
+    border-radius: 10px;
+    transition: 0.40s;
+    
+}
+
+.blocohtml p{
+    padding: 2px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.blocohtml h1{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.blocojava{
+    width: 270px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: left;
+    margin: 25px 0px 0px 160px;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.281);
+    font-family: monospace;
+    border-radius: 10px;
+    transition: 0.40s;
+    
+}
+
+.blocojava p{
+    padding: 2px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.blocojava h1{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+
+.rodape {
+    clear:both;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(204, 204, 204);
+    margin: 50px;
+    position: fixed;
+    margin: 750px 0px 0px 0px;
+}
+
+
+.principal img{
+    margin-top: -224px;
+    width: 15%;
+    margin-left: 968px;
+}
+
+.blococss:hover{
+    transform: scale(1.05,1.05);
+}
+
+.blocohtml:hover{
+    transform: scale(1.05,1.05);
+}
+
+.blocojava:hover{
+    transform: scale(1.05,1.05);
+}
+
+.divisao{
+    width: 0.12%;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 10px;
+    opacity: 0.20;
+    
+}
+
+.divisao{
+    margin-top: 496px;
+    z-index: 1;
+    margin-left: -495px;
+}
+
+.divisao2{
+    width: 0.12%;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 10px;
+    opacity: 0.20;
+    
+}
+
+.divisao2{
+    margin-top: 496px;
+    z-index: 1;
+    margin-left: -440px;
+}
+
+.blocohtml{
+    margin-top: -5px;
+}
+
+.blococss{
+    margin-top: -5px;
+}
+
+.blocojava{
+    margin-top: -5px;
+}
+
